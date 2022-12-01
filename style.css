@@ -1,0 +1,655 @@
+body{
+    margin: 0;
+}
+
+header{
+    width: 100%;
+
+   padding-top: 10px;
+
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: tahoma;
+    display: flex;
+}
+header .log{
+padding-left: 200px;
+cursor: pointer;
+padding-top: 5px;
+
+
+}
+    
+nav {
+    padding-left: 400px;
+    padding-top: 10px;
+    
+
+}
+nav a{
+    padding-left:40px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+#d1:hover{
+    color: rgb(192, 20, 20);
+}
+header .butt{
+    padding-left: 150px;
+    
+   
+    
+}
+#a{
+    margin-right: 20px;
+    cursor: pointer;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: black;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    border-radius: 30px;
+    
+}
+#aab{
+    cursor: pointer;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: rgb(55, 55, 244);
+    background-color: transparent;
+    border: rgb(55, 55, 244);
+    border: 1px solid;
+    font-size: 15px;
+    border-radius: 30px;
+    transition: background-color .15s,color .15s ;
+
+}
+#a:hover{
+    background-color: black;
+    color: #fff;
+
+}
+#a:active{
+    opacity: .4;
+}
+#aab:hover{
+    background-color:rgb(55, 55, 244);
+    color: #fff;
+}
+#aab:active{
+    background-color:#fff;
+    color: rgb(55, 55, 244);
+    
+}
+.main1{
+    width: 100%;
+    height: 600px;
+    background-color: transparent;
+    display: flex;
+
+}
+.main1 .left{
+    width: 50%;
+    height: 600px;
+    background-color:transparent;
+    color: aliceblue
+    ;
+
+
+}
+ #b{
+    color:brown;
+    font-family: helvetica;
+    font-size: 50px;
+    font-weight: .5px;
+    margin-left: 200px;
+    margin-top: 100px;
+
+
+}
+.main1 .right{
+    width: 50%;
+    height: 600px;
+    background-color: transparent;
+    background-image: url(/linkdin/images\ of\ linkedin/linkedinimg1.png);
+    border-top-left-radius: 500px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 400px;
+
+}
+.input{
+    display: block;
+    width: 400px;
+    border: 1px solid; 
+    padding: 14px;
+    margin-left: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#c{
+    margin-top: 20px;
+    margin-left: 200px;
+}
+    
+.password{
+    display: block;
+    width: 400px;
+    border: 1px solid; 
+    padding: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#d{
+    margin-top: 20px;
+    margin-left: 200px;
+    font-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+    cursor: pointer;
+    transition: color .15s;
+
+}
+#d:hover{
+    color:rgb(55, 55, 244) ;
+
+}
+
+.button2{
+    background-color: rgb(3, 113, 247);
+    color: #fff;
+    border: none;
+    height: 50px;
+    width: 300px;
+    margin-left: 250px;
+    font-size: 25px;
+    font-weight: solid;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color .15s, color .15s;
+}
+.button2:hover{
+    background-color:rgb(5, 40, 83);
+    color:#fff
+}
+.main2{
+    display: flex;
+    width: 100%;
+    height: 350px;
+    background-color:whitesmoke;
+}
+#zz{
+    font-family: Helvetica Neue;
+    margin-top: 20pX;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  
+}
+.buttonalign{
+    background-color: rgb(3, 113, 247);
+    
+    padding: 12px;
+    border: 1px solid;
+    border-color: black;
+    
+    font-size: 25px;
+    font-weight: solid;
+    border-radius: 40px;
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-inline-start: 20px;
+    transition:background-color .15s, color .15s;
+
+
+}
+.buttonalign:hover{
+
+    background-color:brown;
+    color: #fff;
+
+}
+
+#buttonalign{
+    padding: 12px;
+    border: 1px solid;
+    border-color: rgb(42, 104, 237);
+    font-size: 25px;
+    font-weight: solid;
+    border-radius: 40px;
+    color:rgb(42, 104, 237);
+    background-color: transparent;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-inline-start: 20px;
+    transition: background-color .15s,color .15s;
+
+}
+
+
+#buttonalign:hover{
+    background-color:rgb(42, 104, 237); 
+    color: #fff;
+
+}
+.left1{
+    width: 40%;
+    height:350px;
+}
+#f{
+    color: black;
+    margin-left: 180px;
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: lighter;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.right2{
+    width: 60%;
+    background-color:transparent;
+    color: black;  
+}
+
+.main3{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color:transparent;
+}
+.left3{
+    width: 40%;
+    height:450px;
+}
+
+
+#g{
+    margin-left: 170px;
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: lighter;
+    
+    font-family:Arial;
+
+
+}
+
+.right3{
+    width: 60%;
+    background-color: transparent;
+    color: black;  
+}
+#xxx{
+    font-family: Helvetica Neue;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+
+}
+#yyy{
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 18px;
+    border: none;
+    border-color: transparent;
+    color: black;
+    cursor: pointer;
+    transition: color .15s;
+}
+#yyy:hover{
+    color: brown;
+}
+
+
+.main4{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color:whitesmoke;
+}
+.left4{
+    width: 40%;
+    height: 300px;
+}
+.right4{
+   display: flex;
+   width:60%;
+   background-color: transparent;
+    color: black;  
+}
+#h{
+    margin-left: 170px;
+    padding-top: 35px;
+    font-size: 40px;
+    font-weight: lighter;
+   
+    font-family:Arial;
+    color: brown;
+
+}
+#button4{
+
+    margin-left: 300px;
+    margin-top: 130px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 21px;
+    color: #fff;
+    border: none;
+    border-radius:35px ;
+    background-color: rgb(54, 89, 247);
+    cursor: pointer;
+    transition: background-colour .15s,color .15s;
+
+
+}
+#button4:hover{
+    background-color: #fff;
+    color: rgb(42, 104, 237);;
+}
+
+.main5{
+    display: flex;
+    width: 100%;
+    height: 900px;
+    background-color: transparent;
+}
+.left5{
+    width: 55%;
+    height:100%;
+    margin-left: 170px;
+    margin-top: 200px;
+    
+}
+#abcd{
+    font-size: 50px;
+    color: rgb(232, 108, 108);
+}
+#abcde{
+    color: rgb(38, 37, 37);
+    font-size: 40px;
+}
+
+
+.right5{
+    width: 45%;
+    height: 100%;
+    
+}
+#abc{
+    margin-left: 100px;
+    margin-top: 200px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    background: none;
+    border: none;
+    
+}
+
+.right5 button a{
+    text-decoration: none;
+    text-size-adjust: 20px;
+    color: black;
+    transition: color .15s;
+}
+.right5 button a:hover{
+    color: darkred;
+}
+.main6{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    background-color: whitesmoke;
+
+}
+
+.left6{
+    
+    width: 50%;
+    height:100%;
+    background-color:transparent;
+}
+#xx,#xy,#xz{
+    margin-left: 170px;
+}
+#xx{
+    padding-top: 45px;
+}
+
+#xy{
+    font-size: 50px;
+    font-family: 'Times New Roman';
+}
+#xz{
+    font-size: 20px;
+    font-family: Cochin;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left:15px;
+    padding-right: 15px;
+    border: solid;
+    border-color: black;
+    background-color: rgb(243, 234, 234);
+    border-radius: 30px;
+    cursor: pointer;
+transition: background-color .15s,color .15s;
+}
+#xz:hover{
+    background-color: black;
+    color: #fff;
+}
+.right6{
+    width: 50%;
+    height:100%;
+    background-color:whitesmoke;
+
+}
+#yx{
+
+    padding-top: 50px;
+    
+}
+#yy{
+    
+
+    font-size: 50px;
+    font-family: 'Times New Roman';
+    padding-top: 30px;
+
+}
+#yz{
+    padding-left: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 20px;
+    font-size: 25px;
+    border-radius: 4px;
+    transition: background-color .15s,color .15s;
+
+
+}
+
+#yz:hover{
+    background-color: black;
+    color: white;
+}
+
+.main7{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    background-color: transparent;
+
+}
+.left7{
+    width: 50%;
+    height: 100%;
+    background-color:transparent;
+}
+.secondleft7{
+    width: 100%;
+    height: 70%;
+    background-color:rgb(236, 229, 229);
+    
+}
+
+.tableof7{
+margin-left: 170px;
+margin-top: 150px;
+font-size: 40px;
+font-family: serif;
+color: rgb(221, 94, 94);
+
+}
+.tableof77{
+    margin-left: 170px;
+    font-size: 30px;
+    color: rgb(30, 28, 28);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#a1,#a2,#a3{
+    margin-left: 170px;
+    font-size: 25px;
+    margin-bottom: 11px;
+    background-color: rgb(195, 191, 191);
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+
+
+}
+#e1{
+    margin-left: 200px;
+    margin-top: 250px;
+}
+
+
+.main8{
+    
+    width: 100%;
+    height: 700px;
+
+}
+.videocontainer{
+    width: 500px;
+    height: 315px;
+    background-color: aqua;
+    margin-left: 200px;
+    margin-top: 100px;
+    overflow: hidden;
+    z-index: 50;
+}
+.main8container{
+    display:flex;
+}
+
+.left8{
+    width: 40%;
+    height: 100%;
+    background-color: transparent;
+
+}
+.right8{
+    width: 50%;
+    height: 300px;
+    background-color: whitesmoke;
+    
+
+}
+#b1{
+    margin-left: 150px;
+    font-size: 30px;
+    color: rgb(240, 111, 111);
+}
+#b2{
+    margin-left: 150px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+
+.main9{
+    width: 100%;
+    height: 600px;
+    background-image:url(/linkdin/images\ of\ linkedin/Screenshot110299.jpg);
+}
+#c1{
+margin-left: 150px;
+font-size: 50px;
+
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: rgb(56, 52, 52);
+}
+#c2{
+    margin-left: 150px;
+    font-size: 25px;
+    color: #fff;
+    background-color: rgb(48, 117, 245);
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-colour .15s,color .15s;
+
+}
+#c2:hover{
+    background-color: white;
+    color: rgb(48, 117, 245);
+}
+.main10{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(235, 232, 232);
+}
+
+.main p{
+    color: rgb(110, 104, 104);
+}
+.footer1{
+    width: 20%;
+    height: 100%;
+}
+#footer2{
+    margin-left: 20px;
+    margin-top: 15px;
+    height: 30px;
+    width: 125x;
+}
+.footer2{
+    width: 20%;
+    height: 100%;
+}
+
+.footer3{
+    width: 20%;
+    height: 100%;
+}
+
+.footer4{
+    width: 20%;
+    height: 100%;
+}
+
+.footer5{
+    width: 20%;
+    height: 100%;
+}
+
+.main10 p:hover{
+
+    color: rgb(48, 117, 245);
+    
+}
+
